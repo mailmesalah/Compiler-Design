@@ -1,0 +1,12 @@
+int x, y, greatestCommonDivisor;
+{
+  x = 84; y = 36;
+  while ( x != y )
+  {
+	if ( x < y )
+		y = y - x;
+	if ( y < x )
+		x = x - y;
+  }
+  greatestCommonDivisor = x;
+}

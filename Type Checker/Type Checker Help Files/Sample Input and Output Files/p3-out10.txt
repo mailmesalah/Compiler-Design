@@ -1,0 +1,2 @@
+{b1=boolean, x2=float, i3=int, i2=int, x1=float, i1=int}
+Type Error: float cannot be assigned to int variable i1

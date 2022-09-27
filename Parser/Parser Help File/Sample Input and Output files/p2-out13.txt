@@ -1,0 +1,85 @@
+0 <program>
+ 1 <var declarations>
+  2 <var dec>
+   3 boolean
+   3 <id list>
+    4 b
+  2 <var declarations>
+   3 <var dec>
+    4 int
+    4 <id list>
+     5 x1
+     5 <id list>
+      6 x2
+      6 <id list>
+       7 x3
+       7 <id list>
+        8 x4
+        8 <id list>
+         9 x5
+         9 <id list>
+          10 x6
+ 1 <statement>
+  2 <assignment>
+   3 b
+   3 =
+   3 <expr>
+    4 <boolTerm>
+     5 <boolPrimary>
+      6 <E>
+       7 <term>
+        8 <primary> x2
+       7 +
+       7 <E>
+        8 <term>
+         9 <primary> x3
+         9 /
+         9 <term>
+          10 <primary> x4
+          10 *
+          10 <term>
+           11 <primary>
+            12 -
+            12 <primary> x5
+        8 -
+        8 <E>
+         9 <term>
+          10 <primary> x6
+      6 <
+      6 <E>
+       7 <term>
+        8 <primary>
+         9 -
+         9 <primary> x1
+        8 *
+        8 <term>
+         9 <primary> x3
+     5 &&
+     5 <boolTerm>
+      6 <boolPrimary>
+       7 <E>
+        8 <term>
+         9 <primary> x2
+        8 +
+        8 <E>
+         9 <term>
+          10 <primary> x5
+       7 >=
+       7 <E>
+        8 <term>
+         9 <primary> x6
+    4 ||
+    4 <expr>
+     5 <boolTerm>
+      6 <boolPrimary>
+       7 <E>
+        8 <term>
+         9 <primary> x1
+       7 !=
+       7 <E>
+        8 <term>
+         9 <primary> x2
+        8 -
+        8 <E>
+         9 <term>
+          10 <primary> x3

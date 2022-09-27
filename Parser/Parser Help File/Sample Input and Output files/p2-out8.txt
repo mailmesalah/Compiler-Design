@@ -1,0 +1,112 @@
+0 <program>
+ 1 <var declarations>
+  2 <var dec>
+   3 int
+   3 <id list>
+    4 i
+    4 <id list>
+     5 j
+  2 <var declarations>
+   3 <var dec>
+    4 int
+    4 <id list>
+     5 a
+ 1 <statement>
+  2<block>
+   3 <s list>
+    4 <statement>
+     5 <assignment>
+      6 i
+      6 =
+      6 <expr>
+       7 <boolTerm>
+        8 <boolPrimary>
+         9 <E>
+          10 <term>
+           11 <primary> 0
+    4 <s list>
+     5 <statement>
+      6 while
+      6 <expr>
+       7 <boolTerm>
+        8 <boolPrimary>
+         9 <E>
+          10 <term>
+           11 <primary> i
+         9 <
+         9 <E>
+          10 <term>
+           11 <primary> 10000
+      6 <statement>
+       7<block>
+        8 <s list>
+         9 <statement>
+          10 <assignment>
+           11 j
+           11 =
+           11 <expr>
+            12 <boolTerm>
+             13 <boolPrimary>
+              14 <E>
+               15 <term>
+                16 <primary> 0
+         9 <s list>
+          10 <statement>
+           11 while
+           11 <expr>
+            12 <boolTerm>
+             13 <boolPrimary>
+              14 <E>
+               15 <term>
+                16 <primary> j
+              14 <=
+              14 <E>
+               15 <term>
+                16 <primary> 2000
+           11 <statement>
+            12<block>
+             13 <s list>
+              14 <statement>
+               15 <assignment>
+                16 a
+                16 =
+                16 <expr>
+                 17 <boolTerm>
+                  18 <boolPrimary>
+                   19 <E>
+                    20 <term>
+                     21 <primary> i
+                    20 +
+                    20 <E>
+                     21 <term>
+                      22 <primary> j
+              14 <s list>
+               15 <statement>
+                16 <assignment>
+                 17 j
+                 17 =
+                 17 <expr>
+                  18 <boolTerm>
+                   19 <boolPrimary>
+                    20 <E>
+                     21 <term>
+                      22 <primary> j
+                     21 +
+                     21 <E>
+                      22 <term>
+                       23 <primary> 1
+          10 <s list>
+           11 <statement>
+            12 <assignment>
+             13 i
+             13 =
+             13 <expr>
+              14 <boolTerm>
+               15 <boolPrimary>
+                16 <E>
+                 17 <term>
+                  18 <primary> i
+                 17 +
+                 17 <E>
+                  18 <term>
+                   19 <primary> 1

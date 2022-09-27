@@ -1,0 +1,82 @@
+0 <program>
+ 1 <var declarations>
+  2 <var dec>
+   3 float
+   3 <id list>
+    4 x
+    4 <id list>
+     5 y
+ 1 <statement>
+  2<block>
+   3 <s list>
+    4 <statement>
+     5 <assignment>
+      6 x
+      6 =
+      6 <expr>
+       7 <boolTerm>
+        8 <boolPrimary>
+         9 <E>
+          10 <term>
+           11 <primary> 1.0
+    4 <s list>
+     5 <statement>
+      6 <assignment>
+       7 y
+       7 =
+       7 <expr>
+        8 <boolTerm>
+         9 <boolPrimary>
+          10 <E>
+           11 <term>
+            12 <primary> 0.0020
+     5 <s list>
+      6 <statement>
+       7 if
+       7 <expr>
+        8 <boolTerm>
+         9 <boolPrimary>
+          10 <E>
+           11 <term>
+            12 <primary> x
+          10 <=
+          10 <E>
+           11 <term>
+            12 <primary> y
+       7 <statement>
+        8 <increment>
+         9 x
+         9 ++
+      6 <s list>
+       7 <statement>
+        8 <decrement>
+         9 x
+         9 --
+       7 <s list>
+        8 <statement>
+         9 do
+         9 <statement>
+          10 <assignment>
+           11 x
+           11 =
+           11 <expr>
+            12 <boolTerm>
+             13 <boolPrimary>
+              14 <E>
+               15 <term>
+                16 <primary> x
+               15 +
+               15 <E>
+                16 <term>
+                 17 <primary> y
+         9 while
+         9 <expr>
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary> x
+            12 <=
+            12 <E>
+             13 <term>
+              14 <primary> 0.265

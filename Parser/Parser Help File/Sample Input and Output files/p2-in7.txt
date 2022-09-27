@@ -1,0 +1,10 @@
+float x, y;
+
+{
+  x = 1.; y = 2.e-3;
+  if ( x <= y )
+     x++;
+  x--;
+
+  do x = x+y; while ( x <= 265.E-3 )
+}

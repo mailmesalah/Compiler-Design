@@ -1,0 +1,23 @@
+int i1, i2, i3;
+float x1, x2;
+boolean b1;
+
+{
+	b1 = false;
+	while ( i1 < 100 || x1 >= 3.5E3 && !b1 )
+	{
+		if ( i2 == 10 && x2 <= x1 || i3 - x1-5 )
+			do
+			{
+				i2++;
+				x1 = x2+(i1*i2)/-i3;
+			}
+			while ( i1 != i2 )
+		else
+		{
+      			if ( x1 <= i3+4.7 )
+				i1--;
+		}
+	}
+}
+      

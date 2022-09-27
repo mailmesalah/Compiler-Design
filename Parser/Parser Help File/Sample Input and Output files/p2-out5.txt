@@ -1,0 +1,177 @@
+0 <program>
+ 1 <var declarations>
+  2 <var dec>
+   3 boolean
+   3 <id list>
+    4 a
+    4 <id list>
+     5 b
+     5 <id list>
+      6 c
+ 1 <statement>
+  2<block>
+   3 <s list>
+    4 <statement>
+     5 <assignment>
+      6 a
+      6 =
+      6 <expr>
+       7 <boolTerm>
+        8 <boolPrimary>
+         9 <E>
+          10 <term>
+           11 <primary> 1
+         9 <
+         9 <E>
+          10 <term>
+           11 <primary> 2
+        8 &&
+        8 <boolTerm>
+         9 <boolPrimary>
+          10 <E>
+           11 <term>
+            12 <primary>
+             13 !
+             13 <primary>
+              14 !
+              14 <primary>
+               15 <expr>
+                16 <boolTerm>
+                 17 <boolPrimary>
+                  18 <E>
+                   19 <term>
+                    20 <primary> 3.0
+                  18 ==
+                  18 <E>
+                   19 <term>
+                    20 <primary> 3
+         9 &&
+         9 <boolTerm>
+          10 <boolPrimary>
+           11 <E>
+            12 <term>
+             13 <primary> 3.54
+           11 !=
+           11 <E>
+            12 <term>
+             13 <primary> 6.0
+          10 &&
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary> 9
+            12 >=
+            12 <E>
+             13 <term>
+              14 <primary> 3.4
+           11 &&
+           11 <boolTerm>
+            12 <boolPrimary>
+             13 <E>
+              14 <term>
+               15 <primary> true
+    4 <s list>
+     5 <statement>
+      6 <assignment>
+       7 b
+       7 =
+       7 <expr>
+        8 <boolTerm>
+         9 <boolPrimary>
+          10 <E>
+           11 <term>
+            12 <primary> 1
+          10 >
+          10 <E>
+           11 <term>
+            12 <primary> 2
+        8 ||
+        8 <expr>
+         9 <boolTerm>
+          10 <boolPrimary>
+           11 <E>
+            12 <term>
+             13 <primary>
+              14 !
+              14 <primary>
+               15 <expr>
+                16 <boolTerm>
+                 17 <boolPrimary>
+                  18 <E>
+                   19 <term>
+                    20 <primary> 3.0
+                  18 ==
+                  18 <E>
+                   19 <term>
+                    20 <primary> 3
+         9 ||
+         9 <expr>
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary> 3.54
+            12 ==
+            12 <E>
+             13 <term>
+              14 <primary> 6.0
+          10 ||
+          10 <expr>
+           11 <boolTerm>
+            12 <boolPrimary>
+             13 <E>
+              14 <term>
+               15 <primary> 9
+             13 <=
+             13 <E>
+              14 <term>
+               15 <primary> 3.4
+           11 ||
+           11 <expr>
+            12 <boolTerm>
+             13 <boolPrimary>
+              14 <E>
+               15 <term>
+                16 <primary> false
+     5 <s list>
+      6 <statement>
+       7 <assignment>
+        8 c
+        8 =
+        8 <expr>
+         9 <boolTerm>
+          10 <boolPrimary>
+           11 <E>
+            12 <term>
+             13 <primary>
+              14 <expr>
+               15 <boolTerm>
+                16 <boolPrimary>
+                 17 <E>
+                  18 <term>
+                   19 <primary> a
+                16 &&
+                16 <boolTerm>
+                 17 <boolPrimary>
+                  18 <E>
+                   19 <term>
+                    20 <primary> b
+         9 ||
+         9 <expr>
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary> a
+          10 ||
+          10 <expr>
+           11 <boolTerm>
+            12 <boolPrimary>
+             13 <E>
+              14 <term>
+               15 <primary>
+                16 !
+                16 <primary>
+                 17 !
+                 17 <primary> false

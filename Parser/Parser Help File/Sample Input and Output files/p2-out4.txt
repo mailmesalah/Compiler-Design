@@ -1,0 +1,116 @@
+0 <program>
+ 1 <var declarations>
+  2 <var dec>
+   3 int
+   3 <id list>
+    4 a
+  2 <var declarations>
+   3 <var dec>
+    4 int
+    4 <id list>
+     5 b
+ 1 <statement>
+  2<block>
+   3 <s list>
+    4 <statement>
+     5 <assignment>
+      6 a
+      6 =
+      6 <expr>
+       7 <boolTerm>
+        8 <boolPrimary>
+         9 <E>
+          10 <term>
+           11 <primary> 3
+    4 <s list>
+     5 <statement>
+      6 if
+      6 <expr>
+       7 <boolTerm>
+        8 <boolPrimary>
+         9 <E>
+          10 <term>
+           11 <primary> a
+         9 ==
+         9 <E>
+          10 <term>
+           11 <primary> 1
+      6 <statement>
+       7 <assignment>
+        8 b
+        8 =
+        8 <expr>
+         9 <boolTerm>
+          10 <boolPrimary>
+           11 <E>
+            12 <term>
+             13 <primary> 1
+      6 else
+      6 <statement>
+       7 if
+       7 <expr>
+        8 <boolTerm>
+         9 <boolPrimary>
+          10 <E>
+           11 <term>
+            12 <primary> a
+          10 ==
+          10 <E>
+           11 <term>
+            12 <primary> 2
+       7 <statement>
+        8 <assignment>
+         9 b
+         9 =
+         9 <expr>
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary> 2
+       7 else
+       7 <statement>
+        8 if
+        8 <expr>
+         9 <boolTerm>
+          10 <boolPrimary>
+           11 <E>
+            12 <term>
+             13 <primary> a
+           11 ==
+           11 <E>
+            12 <term>
+             13 <primary> 3
+        8 <statement>
+         9 <assignment>
+          10 b
+          10 =
+          10 <expr>
+           11 <boolTerm>
+            12 <boolPrimary>
+             13 <E>
+              14 <term>
+               15 <primary> 3
+        8 else
+        8 <statement>
+         9 if
+         9 <expr>
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary> a
+            12 ==
+            12 <E>
+             13 <term>
+              14 <primary> 4
+         9 <statement>
+          10 <assignment>
+           11 b
+           11 =
+           11 <expr>
+            12 <boolTerm>
+             13 <boolPrimary>
+              14 <E>
+               15 <term>
+                16 <primary> 4

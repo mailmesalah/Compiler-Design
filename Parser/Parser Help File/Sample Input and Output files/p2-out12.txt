@@ -1,0 +1,1 @@
+x : unexpected symbol where type name expected

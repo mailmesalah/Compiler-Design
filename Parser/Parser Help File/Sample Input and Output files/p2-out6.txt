@@ -1,0 +1,273 @@
+0 <program>
+ 1 <var declarations>
+  2 <var dec>
+   3 int
+   3 <id list>
+    4 a1
+    4 <id list>
+     5 a2
+  2 <var declarations>
+   3 <var dec>
+    4 float
+    4 <id list>
+     5 while123
+     5 <id list>
+      6 x1
+      6 <id list>
+       7 x3
+       7 <id list>
+        8 x4
+        8 <id list>
+         9 x5
+   3 <var declarations>
+    4 <var dec>
+     5 boolean
+     5 <id list>
+      6 bb
+      6 <id list>
+       7 x1
+ 1 <statement>
+  2<block>
+   3 <s list>
+    4 <statement>
+     5 <assignment>
+      6 a1
+      6 =
+      6 <expr>
+       7 <boolTerm>
+        8 <boolPrimary>
+         9 <E>
+          10 <term>
+           11 <primary>
+            12 <expr>
+             13 <boolTerm>
+              14 <boolPrimary>
+               15 <E>
+                16 <term>
+                 17 <primary> 165
+                16 +
+                16 <E>
+                 17 <term>
+                  18 <primary> 756465
+           11 /
+           11 <term>
+            12 <primary> a2
+    4 <s list>
+     5 <statement>
+      6 <assignment>
+       7 while123
+       7 =
+       7 <expr>
+        8 <boolTerm>
+         9 <boolPrimary>
+          10 <E>
+           11 <term>
+            12 <primary>
+             13 <expr>
+              14 <boolTerm>
+               15 <boolPrimary>
+                16 <E>
+                 17 <term>
+                  18 <primary> 0.847
+                 17 +
+                 17 <E>
+                  18 <term>
+                   19 <primary> 74.76
+                   19 /
+                   19 <term>
+                    20 <primary> 4.36E7
+                  18 -
+                  18 <E>
+                   19 <term>
+                    20 <primary> 8.6999997E11
+                    20 *
+                    20 <term>
+                     21 <primary> 1.7E-4
+           11 +
+           11 <E>
+            12 <term>
+             13 <primary>
+              14 <expr>
+               15 <boolTerm>
+                16 <boolPrimary>
+                 17 <E>
+                  18 <term>
+                   19 <primary> Infinity
+                   19 *
+                   19 <term>
+                    20 <primary> 0.0
+                    20 /
+                    20 <term>
+                     21 <primary> 76450.0
+                  18 +
+                  18 <E>
+                   19 <term>
+                    20 <primary> 0.00123
+     5 <s list>
+      6 <statement>
+       7 <assignment>
+        8 bb
+        8 =
+        8 <expr>
+         9 <boolTerm>
+          10 <boolPrimary>
+           11 <E>
+            12 <term>
+             13 <primary>
+              14 <expr>
+               15 <boolTerm>
+                16 <boolPrimary>
+                 17 <E>
+                  18 <term>
+                   19 <primary> x1
+               15 ||
+               15 <expr>
+                16 <boolTerm>
+                 17 <boolPrimary>
+                  18 <E>
+                   19 <term>
+                    20 <primary> x2
+          10 &&
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary>
+               15 !
+               15 <primary> x3
+         9 ||
+         9 <expr>
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary> true
+           11 &&
+           11 <boolTerm>
+            12 <boolPrimary>
+             13 <E>
+              14 <term>
+               15 <primary> false
+      6 <s list>
+       7 <statement>
+        8 while
+        8 <expr>
+         9 <boolTerm>
+          10 <boolPrimary>
+           11 <E>
+            12 <term>
+             13 <primary> a1
+           11 ==
+           11 <E>
+            12 <term>
+             13 <primary> a2
+         9 ||
+         9 <expr>
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary> x1
+            12 <
+            12 <E>
+             13 <term>
+              14 <primary> x3
+           11 &&
+           11 <boolTerm>
+            12 <boolPrimary>
+             13 <E>
+              14 <term>
+               15 <primary> x4
+             13 >
+             13 <E>
+              14 <term>
+               15 <primary> x5
+        8 <statement>
+         9 if
+         9 <expr>
+          10 <boolTerm>
+           11 <boolPrimary>
+            12 <E>
+             13 <term>
+              14 <primary> cs316
+            12 !=
+            12 <E>
+             13 <term>
+              14 <primary> CS315
+          10 ||
+          10 <expr>
+           11 <boolTerm>
+            12 <boolPrimary>
+             13 <E>
+              14 <term>
+               15 <primary> abc
+             13 <=
+             13 <E>
+              14 <term>
+               15 <primary> def
+            12 &&
+            12 <boolTerm>
+             13 <boolPrimary>
+              14 <E>
+               15 <term>
+                16 <primary> kb65tr
+              14 >=
+              14 <E>
+               15 <term>
+                16 <primary> kjh876tr5d
+         9 <statement>
+          10<block>
+           11 <s list>
+            12 <statement>
+             13 <assignment>
+              14 cs316
+              14 =
+              14 <expr>
+               15 <boolTerm>
+                16 <boolPrimary>
+                 17 <E>
+                  18 <term>
+                   19 <primary> CS315
+            12 <s list>
+             13 <statement>
+              14 <assignment>
+               15 abc
+               15 =
+               15 <expr>
+                16 <boolTerm>
+                 17 <boolPrimary>
+                  18 <E>
+                   19 <term>
+                    20 <primary> delse
+                    20 *
+                    20 <term>
+                     21 <primary> jhnfg
+         9 else
+         9 <statement>
+          10<block>
+           11 <s list>
+            12 <statement>
+             13 <assignment>
+              14 if1
+              14 =
+              14 <expr>
+               15 <boolTerm>
+                16 <boolPrimary>
+                 17 <E>
+                  18 <term>
+                   19 <primary> mvnh876h
+            12 <s list>
+             13 <statement>
+              14 <assignment>
+               15 elseT
+               15 =
+               15 <expr>
+                16 <boolTerm>
+                 17 <boolPrimary>
+                  18 <E>
+                   19 <term>
+                    20 <primary> 8756453
+                   19 +
+                   19 <E>
+                    20 <term>
+                     21 <primary> a1

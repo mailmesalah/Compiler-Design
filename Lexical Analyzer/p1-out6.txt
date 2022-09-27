@@ -1,0 +1,27 @@
+.123e3   : FloatE
+123.e-3   : FloatE
+123.e+3   : FloatE
+123.E3   : FloatE
+123   : Int
+E   : Id
+-   : Sub
+3   : Int
+123   : Int
+E   : Id
++   : Add
+3   : Int
+123.e32   : FloatE
+-   : Sub
+123.e-32   : FloatE
+*   : Mul
+.123e+3   : FloatE
+/   : Div
+.123E3   : FloatE
++   : Add
+.123E-3   : FloatE
+-   : Sub
+123.E+3   : FloatE
+.e  -- Invalid Token
+-   : Sub
+3   : Int
+
